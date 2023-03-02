@@ -1,7 +1,7 @@
-import { aflacLogo, android, angular, cognizantLogo,
+import { aflacLogo, android, html, cognizantLogo,
     facebook, firebase, instagram, ionic, linkdin, mysql,
      nodejs,
-     react, typescript, wellsLogo, wiuLogo, youtube } from "../assets"
+     react, typescript, wellsLogo, wiuLogo, youtube, frontEnd, backEnd, intTool, css, javascript, php, tailwind, bootstrap, figma, nestjs, codeigniter, mongodb, vscode, git } from "../assets"
 
 export const AppText={
    hello:'Hello,',
@@ -29,72 +29,97 @@ export const AppText={
 export const aboutSection=[
    {
        id:1,
-       image:'https://img.freepik.com/premium-vector/ui-ux-programmer-flat-design-vector-illustration-business-information-team-sharing-ideas-with-designer-coding-interface-software-app-development_2175-1809.jpg?w=2000',
-       title:'UI/UX Designer',
-       desc:'Expert in UI/UX designing software like figma'
+       image: frontEnd,
+       title:'Frontend Developer',
+       desc:'Expert in HTML5, CSS3, React Js, Bootstrap, Tailwind, Grid, Flexbox, MUI, AntD'
    },
    {
        id:2,
-       image:'https://media.istockphoto.com/id/1304570729/vector/front-end-development-concept-vector-flat-graphic-design-illustration.jpg?s=612x612&w=0&k=20&c=0lpu0j-4FbuoA7xpGzt9apKZeI5F9KlNNe0qRYxjUYs=',
-       title:'Frontend Developer',
-       desc:'Expert in UI/UX designing software like figma'
+       image: backEnd,
+       title:'Back-end Developer',
+       desc:'Expert in Backend development with Node, Express, NestJs, PHP, DART Programming'
+   },
+   {
+        id:3,
+        image:'https://img.freepik.com/premium-vector/ui-ux-programmer-flat-design-vector-illustration-business-information-team-sharing-ideas-with-designer-coding-interface-software-app-development_2175-1809.jpg?w=2000',
+        title:'UI/UX Designer',
+        desc:'Learning Phase in UI/UX designing software like figma'
+    },
+    {
+        id:4,
+        image:intTool,
+        title:'App Integration Tools',
+        desc:'Worked with webhook/event integration tools like hubspot, Zoom, Strapi, Chargify'
+    },
+]
+
+export const skillsLanguage=[
+    {
+        id:1,
+        icon:html
+    },
+   {
+       id:2,
+       icon:javascript
    },
    {
        id:3,
-       image:'https://img.freepik.com/premium-vector/back-end-developer-working-laptop_701961-1383.jpg?w=2000',
-       title:'Back-end Developer',
-       desc:'Expert in UI/UX designing software like figma'
-   }
-]
-
-export const skillsList=[
+       icon:typescript
+   },
+   {
+       id:4,
+       icon:php
+   }]
+   export const skillsStyles=[
    {
        id:1,
-       icon:angular
+       icon:css
    },
+   {
+       id:2,
+       icon:tailwind
+   },
+   {
+       id:3,
+       icon:bootstrap
+   },
+   {
+       id:4,
+       icon:figma
+   }];
+   export const skillsFrameworks=[
    {
        id:1,
        icon:react
    },
    {
-       id:1,
-       icon:typescript
-   },
-   {
-       id:1,
-       icon:firebase
-   },
-   {
-       id:1,
-       icon:android
-   },
-   {
-       id:1,
-       icon:ionic
-   },
-   {
-       id:1,
-       icon:mysql
-   },
-   {
-       id:1,
-       icon:react
-   },
-   {
-       id:1,
-       icon:typescript
-   },
-   {
-       id:1,
-       icon:firebase
-   },
-   {
-       id:1,
-       icon:android
-   },
-   {
-       id:1,
+       id:2,
        icon:nodejs
+   },
+   {
+       id:3,
+       icon:nestjs
+   },
+   {
+       id:4,
+       icon:codeigniter
+   }];
+   export const skillDevops=[
+   {
+       id:1,
+       icon:mongodb
+   },
+   {
+        id:2,
+        icon:mysql
+   },
+   {
+        id:3,
+        icon:vscode
+   },
+   {
+        id:4,
+        icon:git
    },
 
 ]
@@ -102,28 +127,32 @@ export const skillsList=[
 export const workDetail=[
    { 
        id:1,
-       year:'2021',
-       compnayName:'Wells Fargo',
-       position:'Lead Software Developer'
+       year:'2022',
+       companyName:'Ejyle Technologies Pvt Ltd',
+       position:'Senior Software Developer',
+       project:'Authorify (Digital Marketing Platform)'
    },
+    { 
+        id:2,
+        year:'2021',
+        companyName:'Accenture Solutions Pvt Limited',
+        position:'Senior Software Developer',
+        project:'ACN Abacus Demand Supply'
+        },
    { 
-       id:1,
-       year:'2020',
-       compnayName:'Empowered Benefits',
-       position:'Full Stack Developer'
-   },
-   { 
-       id:1,
+       id:3,
        year:'2018',
-       compnayName:'Western Illionois University',
-       position:'Full Stack Developer'
+       companyName:'Accenture Solutions Pvt Limited',
+       position:'Software Developer',
+       project:'ACN Abacus RM'
    },
    { 
-       id:1,
-       year:'2016',
-       compnayName:'Cognizant',
-       position:'Programmer Analyst'
-   },
+    id:4,
+    year:'2015',
+    companyName:'Accenture Solutions Pvt Limited',
+    position:'Associate Software Developer',
+    project:'Telstra Customer Application'
+},
 ]
 
 export const portfolio=[

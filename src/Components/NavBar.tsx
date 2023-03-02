@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { logo } from '../assets'
+import { shanLogo } from '../assets'
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <div>
       <div className='flex justify-between'>
-        <img src={logo} className="h-5" />
+        <img src={shanLogo} className="h-5" />
         <div className='hidden md:flex'>
           <ul className='flex flex-row'>
             <li className='mr-4 transition-all ease-in-out hover:scale-110 cursor-pointer'>Home</li>
