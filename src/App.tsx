@@ -6,6 +6,8 @@ import Home from './Components/Home'
 import AboutMe from './Components/AboutMe'
 import Skills from './Components/Skills'
 import Footer from './Components/Footer'
+import zipy from "zipyai";
+zipy.init('c0e9302d');
 
 function App() {
   return (
