@@ -20,6 +20,8 @@ import angular from './angular.png'
 import ionic from './ionic.png'
 import firebase from './firebase.png'
 
+import portfolio from './portfolio.jpg'
+
 import mysql from './mysql.png'
 import nodejs from './nodejs.png'
 import nestjs from './nestjs.png'
@@ -44,11 +46,13 @@ import instagram from './Instagram.png'
 import facebook from './Facebook.png'
 import linkdin from './LinkedIn.png'
 
+import hutfresh from './Portfolio/hutfresh.png'
+
 export {
     logo,cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
     homeImage,aflacLogo,wiuLogo, figma, nestjs, codeigniter, mongodb, vscode,
     book, javascript, php, tailwind, bootstrap, git,
-    laptop,
+    laptop, hutfresh,
     skill,
     angular,
     typescript,
@@ -65,5 +69,5 @@ export {
     backEnd,
     intTool,
     html,
-    css,
+    css, portfolio,
 }

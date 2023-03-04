@@ -6,7 +6,7 @@ const Skills = () => {
     <div className='mx-20'>
       <div className='flex flex-row justify-center'>
         <img src={skill} className='w-10'/>
-        <p className='font-semibold text-4xl'>Skills & <span className='text-purple-500'>Expertise</span></p>
+        <p className='font-semibold text-4xl'>Skills & <span className='text-green-500'>Expertise</span></p>
       </div>
       <div className='flex flex-row justify-around'>
         <div className='flex flex-col'>

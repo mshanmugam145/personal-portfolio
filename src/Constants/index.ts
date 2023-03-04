@@ -158,34 +158,28 @@ export const workDetail=[
 export const portfolio=[
    {
        id:1,
-       title:'Food Delivery UI/UX',
-       type:'ui/ux',
-       desc:"App Build using React native and compaitable for Android and IOS",
-       imageUrl:"https://cdn.dribbble.com/users/4189231/screenshots/17343305/media/202173138f9504c2eacd16e70698312c.png?compress=1&resize=400x300"
-   },
-   {
-       id:4,
-       title:'Funny Website',
-       type:'website',
-       desc:"App Build using React native and compaitable for Android and IOS",
-       imageUrl:"https://miro.medium.com/max/1400/0*GWvV5kcuVATUfs2r.png"
+       title:'Grocery Shopping Website',
+       type:'Website',
+       desc:"Grocery online shopping website developed using ReactJs, nodeJs, Mysql DB, Bootstrap",
+       siteUrl:"https://www.hutfresh.com",
+       imageUrl:"https://cdn.dribbble.com/users/1680506/screenshots/12112318/media/ce88bfdaed42fa50bc5fbbf7090d884a.jpg?compress=1&resize=400x300"
    },
    {
        id:2,
-       title:'Business Listing App',
-       type:'mobile',
-       desc:"App Build using React native and compaitable for Android and IOS",
-       imageUrl:"https://www.radiustheme.com/wp-content/uploads/2022/05/Directory-app.png"
+       title:'Login - UI/UX Design ',
+       type:'UI/UX',
+       desc:"Figma UI/UX Design for Login with Freepik vector graphics",
+       siteUrl:"https://dribbble.com/shots/20821737-Shan-Login-Page-UI-UX?added_first_shot=true",
+       imageUrl:"https://cdn.dribbble.com/userupload/5104512/file/original-a871833e54f0eb328f13deaf3643f2a9.png?compress=1&resize=400x300"
    },
    {
        id:3,
-       title:'Food Delivery UI/UX',
-       type:'ui/ux',
-       desc:"App Build using React native and compaitable for Android and IOS",
-       imageUrl:"https://cdn.dribbble.com/users/2892962/screenshots/14273462/nlytical_mockup_4x.png"
-   },
-
-   
+       title:'NPM CLI Tool in Tamil',
+       type:'NPM CLI Tool',
+       desc:"NPM CLI tool for storing data in Tamil using Nodejs",
+       siteUrl:"https://github.com/mshanmugam145/shan-tamil-cli",
+       imageUrl:"https://cdn.dribbble.com/users/632369/screenshots/8431669/media/ca4dfd04ac010600403b9ca1406dcdbc.jpg?compress=1&resize=400x300"
+   },  
 ]
 
 export const CompanyImage=[

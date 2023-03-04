@@ -7,6 +7,7 @@ import AboutMe from './Components/AboutMe'
 import Skills from './Components/Skills'
 import Footer from './Components/Footer'
 import zipy from "zipyai";
+import Portfolio from './Components/Portfolio'
 zipy.init('c0e9302d');
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       {/* Skills */}
       <Skills />
       {/* Portfolio */}
+      <Portfolio />
       {/* Companies */}
       {/* Contact Us */}
       {/* Footer */}
