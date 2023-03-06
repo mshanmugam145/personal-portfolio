@@ -4,12 +4,12 @@ import { portfolio } from '../Constants'
 
 const Portfolio = () => {
   return (
-    <div className='my-10'>
+    <div className='my-10' id='portfolio'>
       <div className='flex flex-row justify-center mb-5'>
-        <p className='font-semibold text-4xl'>My Project <span className='text-green-500'>Portfolio</span></p>
+        <p className='font-semibold md:text-4xl text-xl'>My Project <span className='text-green-500'>Portfolio</span></p>
         <img src={portfolioImg} className='w-12'/>
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid md:grid-cols-3 grid-flow-row gap-4">
          {portfolio.map((item) => (
           <div className='p-5 text-center hover:bg-green-600 hover:p-4 rounded-lg hover:text-white'>
             <img src={item.imageUrl} className='w-50 h-50 rounded-md'/>

@@ -5,17 +5,27 @@ const NavBar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div>
+    <div id='home'>
       <div className='flex justify-between'>
         <img src={shanLogo} className="h-5" />
         <div className='hidden md:flex'>
           <ul className='flex flex-row'>
-            <li className='mr-4 transition-all ease-in-out hover:scale-110 cursor-pointer'>Home</li>
-            <li className='mr-4 transition-all ease-in-out hover:scale-110 cursor-pointer'>About Me</li>
-            <li className='mr-4 transition-all ease-in-out hover:scale-110 cursor-pointer'>Skills</li>
-            <li className='mr-4 transition-all ease-in-out hover:scale-110 cursor-pointer'>Portfolio</li>
-            <li className='mr-4 transition-all ease-in-out hover:scale-110 cursor-pointer'>Companies</li>
-            <li className='mr-4 transition-all ease-in-out hover:scale-110 cursor-pointer'>Contact Me</li>
+            <li className='mr-4 transition-all ease-in-out hover:scale-110 cursor-pointer'>
+            <a href="#home">Home</a>
+            </li>
+            <li className='mr-4 transition-all ease-in-out hover:scale-110 cursor-pointer'>
+              <a href="#aboutme">About Me</a>
+            </li>
+            <li className='mr-4 transition-all ease-in-out hover:scale-110 cursor-pointer'>
+              <a href="#skill">Skills</a>
+            </li>
+            <li className='mr-4 transition-all ease-in-out hover:scale-110 cursor-pointer'>
+            <a href="#portfolio">Portfolio</a>
+              </li>
+            {/* <li className='mr-4 transition-all ease-in-out hover:scale-110 cursor-pointer'>Companies</li> */}
+            <li className='mr-4 transition-all ease-in-out hover:scale-110 cursor-pointer'>
+            <a href="#contactme">Contact Me</a>
+              </li>
           </ul>
         </div>
         <div className='md:hidden lg:hidden'>

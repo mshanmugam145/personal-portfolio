@@ -3,38 +3,38 @@ import { skill } from '../assets'
 import {skillDevops, skillsFrameworks, skillsLanguage, skillsStyles, workDetail} from '../Constants'
 const Skills = () => {
   return (
-    <div className='mx-20'>
+    <div className='mx-20' id='skill'>
       <div className='flex flex-row justify-center'>
         <img src={skill} className='w-10'/>
-        <p className='font-semibold text-4xl'>Skills & <span className='text-green-500'>Expertise</span></p>
+        <p className='font-semibold md:text-4xl text-xl'>Skills & <span className='text-green-500'>Expertise</span></p>
       </div>
-      <div className='flex flex-row justify-around'>
+      <div className='flex md:flex-row flex-col justify-around'>
         <div className='flex flex-col'>
-          <div className='flex flex-row'>
+          <div className='flex flex-row justify-around'>
             {skillsLanguage.map((item) => (
-            <div className='mx-10 my-7'>
-               <img src={item.icon} className='w-12 h-12'/>
+            <div className='md:mx-10 md:my-7 sm:mx-5 sm:my-3 mx-2 my-2'>
+               <img src={item.icon} className='md:w-[50px] md:h-[50px] sm:w-[50px] sm:h-[50px] w-[30px] h-[30px]'/>
             </div>
             ))}
           </div>
-          <div className='flex flex-row'>
+          <div className='flex flex-row justify-around'>
           {skillsStyles.map((item) => (
-           <div className='mx-10 my-7'>
-           <img src={item.icon} className='w-12 h-12'/>
-          </div>
+          <div className='md:mx-10 md:my-7 sm:mx-5 sm:my-3 mx-2 my-2'>
+          <img src={item.icon} className='md:w-[50px] md:h-[50px] sm:w-[50px] sm:h-[50px] w-[30px] h-[30px]'/>
+       </div>
           ))}
           </div>
-          <div className='flex flex-row'>
+          <div className='flex flex-row justify-around'>
           {skillsFrameworks.map((item) => (
-            <div className='mx-10 my-7'>
-            <img src={item.icon} className='w-12 h-12'/>
+            <div className='md:mx-10 md:my-7 sm:mx-5 sm:my-3 mx-2 my-2'>
+            <img src={item.icon} className='md:w-[50px] md:h-[50px] sm:w-[50px] sm:h-[50px] w-[30px] h-[30px]'/>
          </div>
           ))}
           </div>
-          <div className='flex flex-row'>
+          <div className='flex flex-row justify-around'>
           {skillDevops.map((item) => (
-            <div className='mx-10 my-7'>
-            <img src={item.icon} className='w-12 h-12'/>
+            <div className='md:mx-10 md:my-7 sm:mx-5 sm:my-3 mx-2 my-2'>
+            <img src={item.icon} className='md:w-[50px] md:h-[50px] sm:w-[50px] sm:h-[50px] w-[30px] h-[30px]'/>
          </div>
           ))}
           </div>

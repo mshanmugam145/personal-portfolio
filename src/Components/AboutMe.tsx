@@ -4,7 +4,7 @@ import { aboutSection, AppText } from '../Constants'
 
 const AboutMe = () => {
   return (
-    <div className='mt-36'>
+    <div className='mt-36' id='aboutme'>
       <img src={wave} className='w-screen absolute'/>
       <img src={laptop} className='absolute mt-[-130px] md:mt-[-180px] w-[220px] md:w-[300px]'/>
     <div className='h-[300px] bg-green-600'>

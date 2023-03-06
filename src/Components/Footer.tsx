@@ -3,7 +3,7 @@ import { instagram, linkdin, youtube } from '../assets'
 
 const Footer = () => {
   return (
-    <div className='bg-gray-300 w-[100%] h-[150px]'>
+    <div className='bg-gray-300 w-[100%] h-[150px]' id='contactme'>
     <div className='flex flex-row justify-center items-center'>
       <a href='#'>
         <img src={instagram} className='mx-3 mt-6 w-12 h-12' />
