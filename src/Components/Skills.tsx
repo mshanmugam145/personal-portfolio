@@ -1,6 +1,6 @@
 import React from 'react'
 import { skill } from '../assets'
-import {skillDevops, skillsFrameworks, skillsLanguage, skillsStyles, workDetail} from '../Constants'
+import { skillDevops, skillsFrameworks, skillsLanguage, skillsStyles, workDetail } from '../Constants'
 const Skills = () => {
   return (
     <div className='mx-20' id='skill'>
