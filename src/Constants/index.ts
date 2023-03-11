@@ -180,6 +180,14 @@ export const portfolio=[
        siteUrl:"https://github.com/mshanmugam145/shan-tamil-cli",
        imageUrl:"https://cdn.dribbble.com/users/632369/screenshots/8431669/media/ca4dfd04ac010600403b9ca1406dcdbc.jpg?compress=1&resize=400x300"
    },  
+   {
+       id:4,
+       title:'React Redux UI and Code Template',
+       type:'Website',
+       desc:"Build code template for React Redux to understant redux concepts and redux-thunk middleware",
+       siteUrl:"https://github.com/mshanmugam145/reactredux",
+       imageUrl:"https://cdn.dribbble.com/userupload/5263997/file/original-5f928b6ab5244a652b199f3e7f7787b9.png?compress=1&resize=1504x730"
+   },  
 ]
 
 export const CompanyImage=[
