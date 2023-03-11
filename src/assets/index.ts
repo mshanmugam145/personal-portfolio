@@ -41,10 +41,13 @@ import aflacLogo from './aflac.png'
 import wiuLogo from './wiu.png'
 import contactusbg from './contactusbg.png'
 import phone from './phone.png'
+
+// Footer
 import youtube from './youtube.png'
 import instagram from './Instagram.png'
 import facebook from './Facebook.png'
 import linkdin from './LinkedIn.png'
+import github from './github.png'
 
 import hutfresh from './Portfolio/hutfresh.png'
 
@@ -52,7 +55,7 @@ export {
     logo,cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
     homeImage,aflacLogo,wiuLogo, figma, nestjs, codeigniter, mongodb, vscode,
     book, javascript, php, tailwind, bootstrap, git,
-    laptop, hutfresh,
+    laptop, hutfresh, github,
     skill,
     angular,
     typescript,

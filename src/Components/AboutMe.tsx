@@ -10,7 +10,7 @@ const AboutMe = () => {
     <div className='h-[300px] bg-green-600'>
       <h2 className='text-[50px] font-bold p-10 text-center text-white'>{AppText.about} 
       <span className='text-black'> {AppText.me}</span></h2>
-      <h2 className='text-white mt-7 px-10 md:px-64 lg:px-80 text-center'>{AppText.aboutMeDescripion}</h2>
+      <h2 className='text-white mt-7 px-10 md:px-64 lg:px-80 text-center text-wrap'>{AppText.aboutMeDescripion}</h2>
     </div>
 
     <div className='flex flex-col mt-[-45px] md:flex-row items-center 

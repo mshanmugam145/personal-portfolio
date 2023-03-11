@@ -20,7 +20,7 @@ const Portfolio = () => {
               <p>{item.desc}</p>
             </div>
             <div className='mt-4'>
-              <a href={item.siteUrl} target={'_blank3'} className='px-5 py-2 text-blue-100 no-underline bg-blue-500 rounded hover:bg-blue-600 hover:underline hover:text-blue-200'> View Demo </a>
+              <a href={item.siteUrl} target={'_blank'} className='px-5 py-2 text-blue-100 no-underline bg-blue-500 rounded hover:bg-blue-600 hover:underline hover:text-blue-200'> View Demo </a>
             </div>
          </div>
           ))}
