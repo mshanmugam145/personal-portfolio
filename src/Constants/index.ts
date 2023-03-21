@@ -23,7 +23,6 @@ export const AppText={
    Contact:'Contact ',
    Us:'Us',
    copywriteText:'Copyright by Rahul Sanap @2023'
-
 }
 
 export const aboutSection=[
@@ -188,6 +187,14 @@ export const portfolio=[
        siteUrl:"https://github.com/mshanmugam145/reactredux",
        imageUrl:"https://cdn.dribbble.com/userupload/5263997/file/original-5f928b6ab5244a652b199f3e7f7787b9.png?compress=1&resize=1504x730"
    },  
+   {
+    id:5,
+    title:'React-Query Usage and Code Template',
+    type:'Website',
+    desc:"Built code template for React-query to understant useQuery, useMutation etc and unique queries, Parallel queries, infinite queries, etc.,",
+    siteUrl:"https://github.com/mshanmugam145/reactquery",
+    imageUrl:"https://cdn.dribbble.com/userupload/5506603/file/original-b972b7986cdc30700f8f196476693fc7.jpg?compress=1&resize=1200x675"
+},  
 ]
 
 export const CompanyImage=[

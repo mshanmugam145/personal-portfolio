@@ -50,12 +50,13 @@ import linkdin from './LinkedIn.png'
 import github from './github.png'
 
 import hutfresh from './Portfolio/hutfresh.png'
+import reactQuery from './Portfolio/react-query.png'
 
 export {
     logo,cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
     homeImage,aflacLogo,wiuLogo, figma, nestjs, codeigniter, mongodb, vscode,
     book, javascript, php, tailwind, bootstrap, git,
-    laptop, hutfresh, github,
+    laptop, hutfresh, github, reactQuery,
     skill,
     angular,
     typescript,
