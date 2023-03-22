@@ -185,7 +185,7 @@ export const portfolio=[
        type:'Website',
        desc:"Build code template for React Redux to understant redux concepts and redux-thunk middleware",
        siteUrl:"https://github.com/mshanmugam145/reactredux",
-       imageUrl:"https://cdn.dribbble.com/userupload/5263997/file/original-5f928b6ab5244a652b199f3e7f7787b9.png?compress=1&resize=1504x730"
+       imageUrl:"https://cdn.dribbble.com/userupload/5531542/file/original-2469e53a1e669159aeaa0c84929d3958.png?compress=1&resize=1200x675"
    },  
    {
     id:5,
