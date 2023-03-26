@@ -159,7 +159,7 @@ export const portfolio=[
        id:1,
        title:'Grocery Shopping Website',
        type:'Website',
-       desc:"Grocery online shopping website developed using ReactJs, nodeJs, Mysql DB, Bootstrap",
+       desc:"Grocery online shopping website developed using ReactJs, Codeigniter, Mysql DB, Bootstrap",
        siteUrl:"https://www.hutfresh.com",
        imageUrl:"https://cdn.dribbble.com/users/1680506/screenshots/12112318/media/ce88bfdaed42fa50bc5fbbf7090d884a.jpg?compress=1&resize=1024x605"
    },
