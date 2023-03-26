@@ -194,7 +194,15 @@ export const portfolio=[
     desc:"Built code template for React-query to understant useQuery, useMutation etc and unique queries, Parallel queries, infinite queries, etc.,",
     siteUrl:"https://github.com/mshanmugam145/reactquery",
     imageUrl:"https://cdn.dribbble.com/userupload/5506603/file/original-b972b7986cdc30700f8f196476693fc7.jpg?compress=1&resize=1200x675"
-},  
+   },
+   {
+    id:6,
+    title:'React Testing Library with Jest',
+    type:'Website',
+    desc:"Built code template for React testing library with Jest package and included user events etc.",
+    siteUrl:"https://github.com/mshanmugam145/reacttesting",
+    imageUrl:"https://cdn.dribbble.com/userupload/5636005/file/original-45fefee7504dd781bb447e5c07c85ba6.png?compress=1&resize=1200x675"
+   },  
 ]
 
 export const CompanyImage=[
